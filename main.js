@@ -56,7 +56,7 @@ function ensureConfigFile() {
       process.cwd(),
       "react-native.config.js"
     ));
-    if (!reactNativeConfig.assets.includes(fontDirectory)) {
+    if (!includesDirectory(reactNativeConfig.assets, fontDirectory)) {
       console.log(
         `🛑 react-native.config.js does not include ${fontDirectory}. Add it and run again.`
       );
@@ -75,4 +75,10 @@ function ensureConfigFile() {
 
 function highlightJs(code) {
   return highlight(code, { language: "js" });
+}
+
+function includesDirectory(listOfDirectories, directory) {
+  return listOfDirectories
+    .map((directory) => directory.replace(/\/$/, ""))
+    .includes(directory.replace(/\/$/, ""));
 }
