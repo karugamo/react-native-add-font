@@ -1,6 +1,6 @@
 {
   "name": "react-native-add-font",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "bin": {
     "react-native-add-font": "main.js"
