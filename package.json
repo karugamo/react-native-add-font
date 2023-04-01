@@ -1,0 +1,30 @@
+{
+  "name": "react-native-add-font",
+  "version": "1.0.0",
+  "main": "main.js",
+  "bin": {
+    "react-native-add-font": "main.js"
+  },
+  "keywords": [
+    "react-native",
+    "ttf",
+    "fonts"
+  ],
+  "author": "Finn Pauls",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "cli-highlight": "^2.1.11",
+    "fontname": "^1.0.1",
+    "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karugamo/react-native-add-font.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karugamo/react-native-add-font/issues"
+  },
+  "homepage": "https://github.com/karugamo/react-native-add-font#readme",
+  "description": ""
+}
