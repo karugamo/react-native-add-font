@@ -11,7 +11,7 @@
     "fonts"
   ],
   "author": "Finn Pauls",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cli-color": "^2.0.3",
     "cli-highlight": "^2.1.11",
